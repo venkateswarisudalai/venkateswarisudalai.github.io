@@ -22,7 +22,7 @@ export default function Navbar() {
           </a>
 
           <a href="#contact" className="mr-5 hover:text-white">
-            contact
+            Contact
           </a>
           
         </nav>
