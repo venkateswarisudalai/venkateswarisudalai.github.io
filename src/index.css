@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.social-media-links{
+    display: flex;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    
+}
+.social-media-links li{
+
+    margin-left: 50px;
+    margin-bottom: 200px;
+}
