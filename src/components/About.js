@@ -20,8 +20,8 @@ export default function About() {
               Currently pursuing my masters in computer science from Northeastern University! 
             </h2>
           <p className="mb-8 leading-relaxed">
-            I'm an experienced Devops Engineer with a keen interest in Software Development and System Development. Having worked at one of the largest companies in the world, I am currently looking for my next big challenge!
-            I aim to solve real world problems using the latest tools and frameworks and I'm always striving to learn and pick up new skills.
+          As an experienced Software Engineer with a passion for software and system development, I have honed my skills at one of the largest companies in the world. However, I am now seeking my next big challenge and an opportunity to make a real impact by solving real-world problems using the latest tools and frameworks.
+          I am constantly looking to expand my knowledge and skills, and am always eager to learn new things. My goal is to utilize my expertise and experience to deliver high-quality solutions that meet the needs of clients and end-users. With a strong work ethic and a commitment to excellence, I am confident that I can make a positive contribution to any team or project.
           </p>
         </div>
       </div>
