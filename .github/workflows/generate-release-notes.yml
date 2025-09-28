@@ -1,7 +1,7 @@
-generate-release-notes.ymlname: Generate Release Notes
+name: Generate Release Notes
 
 permissions:
-  contents: write    # allow committing files back to the repo
+  contents: write
 
 on:
   push:
@@ -13,8 +13,9 @@ jobs:
   build:
     if: github.event_name != 'pull_request' || github.event.action == 'closed'
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -29,23 +30,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests python-dotenv
 
-      - name: Run fetch commits & PRs
+      - name: Fetch commits & PRs
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REF: ${{ github.ref }}
         run: |
           python scripts/fetch_commits_prs.py
-          echo "---- messages.txt ----"
           head -n 50 messages.txt || true
 
-      - name: Generate release notes (OpenRouter)
+      - name: Generate release notes
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
           python scripts/generate_release_notes.py
-          echo "---- RELEASE_NOTES.md ----"
-          sed -n '1,200p' RELEASE_NOTES.md || true
+          head -n 50 RELEASE_NOTES.md || true
 
       - name: Commit release notes
         env:
@@ -55,4 +54,4 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add RELEASE_NOTES.md || true
           git commit -m "chore: update release notes [skip ci]" || echo "No changes to commit"
-          git push origin HEAD:${{ github.ref_name }} || echo "Push failed (maybe no permission)"
+          git push origin HEAD:${{ github.ref_name }} || echo "Push failed"
