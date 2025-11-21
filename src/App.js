@@ -6,17 +6,14 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
 
-
-
 export default function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="text-gray-300 min-h-screen">
       <Navbar />
       <About />
       <Projects />
-      <Education/>
+      <Education />
       <Skills />
-      
       <Contact />
     </main>
   );
