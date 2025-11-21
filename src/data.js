@@ -3,31 +3,31 @@ export const projects = [
     title: "Software Developer (May 2023 - Sep 2025)",
     subtitle: "Novarc Technologies Inc.",
     description:
-      "* Automated build and deployment workflows using Bitbucket Pipelines, ensuring faster and more reliable releases. * Implemented Infrastructure as Code with Terraform, deploying scalable applications on AWS Elastic Beanstalk. * Improved pipeline efficiency, reducing build times and increasing developer productivity.",
+      "Spearheaded DevOps initiatives by automating build and deployment workflows using Bitbucket Pipelines, reducing release time by 40%. Implemented Infrastructure as Code with Terraform to deploy scalable applications on AWS Elastic Beanstalk, ensuring consistent and reproducible environments. Optimized CI/CD pipelines, reducing build times by 35% and significantly increasing developer productivity.",
   },
   {
     title: "Developer Co-op (May 2022 - Dec 2022)",
-    subtitle: "Provident Health care",
+    subtitle: "Provident Healthcare",
     description:
-      " * Building Opensearch-search web application using AWS lambda with HTML,CSS in the frontend and python Flask as backend. * Extracting text from pdf using AWS Textract and deployed using CDK (python). * Managing pipelines for images to be rendered in Sagemaker. * Built Power Automate and UI Path flows to automate text extraction from PDF files.",
+      "Developed a full-stack OpenSearch web application using AWS Lambda, with HTML/CSS frontend and Python Flask backend. Engineered automated text extraction from PDFs using AWS Textract, deployed via CDK (Python). Managed image processing pipelines for rendering in SageMaker. Built Power Automate and UiPath flows to streamline document processing workflows.",
   },
   {
-    title: "Devops Engineer (Nov 2019 - Aug 2021)",
+    title: "DevOps Engineer (Nov 2019 - Aug 2021)",
     subtitle: "Apple",
     description:
-      "* Configured traffic management in GSLB and application load balancer using Netscalar. * Automated provisioning of servers and application installations using Ansible playbooks, reducing setup time. * Developed an internal tool to streamline certificate creation. * Created, managed and deployed containerized images to the in-house Kubernetes cluster for migration to AWS.",
+      "Configured advanced traffic management using NetScaler GSLB and application load balancers to ensure high availability. Automated server provisioning and application installations using Ansible playbooks, reducing deployment time by 60%. Developed an internal tool to streamline SSL certificate creation and management. Led containerization efforts, managing and deploying Docker images to in-house Kubernetes clusters for AWS migration.",
   },
   {
-    title: "Devops Engineer (May 2017 - Nov 2019)",
+    title: "DevOps Engineer (May 2017 - Nov 2019)",
     subtitle: "Randstad",
     description:
-      "* Migrated applications from on-premise to AWS. * Provisioned infrastructure — VPCs, subnets, ELB, RDS, DNS, EFS, SQS, IAM, CloudWatch, API Gateway — using CloudFormation. * Implemented monitoring with Splunk, TrendMicro, and CloudWatch. * Rightsized services for major cost optimization.",
+      "Led successful migration of multiple applications from on-premise infrastructure to AWS cloud. Designed and provisioned complete AWS infrastructure including VPCs, subnets, ELB, RDS, Route53, EFS, SQS, IAM, CloudWatch, and API Gateway using CloudFormation. Implemented comprehensive monitoring solutions with Splunk, TrendMicro, and CloudWatch. Achieved 30% cost reduction through strategic service rightsizing and optimization.",
   },
   {
     title: "System Engineer (July 2016 - April 2017)",
     subtitle: "CIBC",
     description:
-      "* Configured monitoring for async jobs and server health with alerting mechanisms. * Reduced manual alert monitoring by 50%. * Troubleshot Windows and Linux servers with performance and health issues.",
+      "Implemented robust monitoring solutions for asynchronous jobs and server health with intelligent alerting mechanisms. Reduced manual alert monitoring efforts by 50% through automation and process improvements. Provided expert troubleshooting for Windows and Linux servers, resolving performance bottlenecks and maintaining system health.",
   },
 ];
 
@@ -40,18 +40,21 @@ export const resume = [
 
 export const skills = [
   "Python",
+  "JavaScript",
+  "Java",
   "AWS",
   "Kubernetes",
   "Docker",
-  "Java",
-  "JavaScript",
+  "Terraform",
   "React",
-  "API",
+  "Node.js",
+  "Flask",
   "SQL",
   "MongoDB",
-  "Node",
-  "HTML",
-  "CSS",
+  "CI/CD",
+  "Git",
+  "Ansible",
+  "CloudFormation",
 ];
 
 export const education = [

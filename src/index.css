@@ -1,14 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.social-media-links{
-    display: flex;
-    margin-bottom: 200px;
-    margin-top: 50px;
-    
-}
-.social-media-links li{
 
-    margin-left: 50px;
-    margin-bottom: 200px;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+  background-attachment: fixed;
+}
+
+.social-media-links {
+  display: flex;
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+
+.social-media-links li {
+  margin-left: 50px;
+  margin-bottom: 200px;
+}
+
+/* Custom gradient text */
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-400 via-accent-400 to-primary-500;
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
