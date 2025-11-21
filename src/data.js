@@ -1,38 +1,42 @@
 export const projects = [
   {
+    title: "Software Developer (May 2023 - Sep 2025)",
+    subtitle: "Novarc Technologies Inc.",
+    description:
+      "* Automated build and deployment workflows using Bitbucket Pipelines, ensuring faster and more reliable releases. * Implemented Infrastructure as Code with Terraform, deploying scalable applications on AWS Elastic Beanstalk. * Improved pipeline efficiency, reducing build times and increasing developer productivity.",
+  },
+  {
     title: "Developer Co-op (May 2022 - Dec 2022)",
     subtitle: "Provident Health care",
     description:
-      " * Building Opensearch-search web application using AWS lambda with HTML,CSS in the forntend and python Flask as backend . * Extracting text from the pdf using AWS textract and deployed using CDK.(python). * Managing the pipelines for the images to be rendered in the Sagemaker* Power Automate and UI path to automate text extraction from the pdf.",
-
+      " * Building Opensearch-search web application using AWS lambda with HTML,CSS in the frontend and python Flask as backend. * Extracting text from pdf using AWS Textract and deployed using CDK (python). * Managing pipelines for images to be rendered in Sagemaker. * Built Power Automate and UI Path flows to automate text extraction from PDF files.",
   },
   {
     title: "Devops Engineer (Nov 2019 - Aug 2021)",
     subtitle: "Apple",
     description:
-      "* Configured the traffic management in Global Server Load Balancing and the application load balancer using netscalar. * Automated procuring of varied servers and installation of application through ansible playbooks, which eased the time involved in setting up a service. * Developed an internal tool to create certificates for internal applications. * Creating,Managing and deploying containerized images to the in-house Kubernetes cluster. We did this work as a step to migrate the containerized images from local servers to AWS.",
-    
+      "* Configured traffic management in GSLB and application load balancer using Netscalar. * Automated provisioning of servers and application installations using Ansible playbooks, reducing setup time. * Developed an internal tool to streamline certificate creation. * Created, managed and deployed containerized images to the in-house Kubernetes cluster for migration to AWS.",
   },
   {
     title: "Devops Engineer (May 2017 - Nov 2019)",
     subtitle: "Randstad",
     description:
-      "* Involved in migration of the applications hosted on an in-house server to Amazon Web Services.* As part of the migration, provisioned the varied AWS infrastructure services including VPCs, public subnets, elastic load balancer instances, relational database systems, DNS web services, elastic file systems, scalable storage services, queueing services, identity management service, cloud watch, gateway services using cloud formation.* Configured application monitoring using Splunk, security threat identification service using Trendmicro, and systems health monitoring through Cloud Watch. * Rightsized the different services for cost optimization.",
-    
+      "* Migrated applications from on-premise to AWS. * Provisioned infrastructure — VPCs, subnets, ELB, RDS, DNS, EFS, SQS, IAM, CloudWatch, API Gateway — using CloudFormation. * Implemented monitoring with Splunk, TrendMicro, and CloudWatch. * Rightsized services for major cost optimization.",
   },
   {
     title: "System Engineer (July 2016 - April 2017)",
     subtitle: "CIBC",
     description:
-      "* Configured monitors for varied metrics of asynchronous jobs, server’s health and added the alerting mechanisms. * Decreased the manual monitoring of alerts by 50%. * Trouble shooting both windows and linux servers whose health is down.",
-    
+      "* Configured monitoring for async jobs and server health with alerting mechanisms. * Reduced manual alert monitoring by 50%. * Troubleshot Windows and Linux servers with performance and health issues.",
   },
 ];
 
-export const resume = [{
-  "resumedownload": "https://drive.google.com/file/d/1N-MZzPAuyLnW9RtTXDiMXDOCCwMc49bN/view?usp=share_link",
-},
-]
+export const resume = [
+  {
+    resumedownload:
+      "https://drive.google.com/file/d/1N-MZzPAuyLnW9RtTXDiMXDOCCwMc49bN/view?usp=share_link",
+  },
+];
 
 export const skills = [
   "Python",
@@ -48,24 +52,15 @@ export const skills = [
   "Node",
   "HTML",
   "CSS",
-  
-  
 ];
 
-export const education = [{
-  title: "Bachelor's CS(Sep 2012 - May 2016)",
-  subtitle: "Anna Universty",
-  
-
-},
-{
-title: "Master's CS(Sep 2021 - May 2023)",
-subtitle: "Northeastern University",
-
-}
+export const education = [
+  {
+    title: "Bachelor's CS (Sep 2012 - May 2016)",
+    subtitle: "Anna University",
+  },
+  {
+    title: "Master's CS (Sep 2021 - May 2023)",
+    subtitle: "Northeastern University",
+  },
 ];
-
-
-
-
-
