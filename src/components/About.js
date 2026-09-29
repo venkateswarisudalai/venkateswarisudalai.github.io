@@ -16,7 +16,7 @@ export default function About() {
             <img
               className="relative object-cover object-center rounded-full h-64 w-64 md:h-80 md:w-80 border-4 border-white/10 shadow-2xl"
               alt="venka"
-              src="./venkateswari.png"
+              src="./profile.jpg"
             />
           </div>
         </div>
