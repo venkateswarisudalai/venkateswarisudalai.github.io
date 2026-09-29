@@ -17,6 +17,12 @@ export default function Navbar() {
             Experience
           </a>
           <a
+            href="#side-projects"
+            className="px-3 py-2 text-gray-300 hover:text-white hover:bg-white/10 rounded-lg transition-all duration-300"
+          >
+            Projects
+          </a>
+          <a
             href="#education"
             className="px-3 py-2 text-gray-300 hover:text-white hover:bg-white/10 rounded-lg transition-all duration-300"
           >

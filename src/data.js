@@ -73,3 +73,37 @@ export const education = [
     subtitle: "Northeastern University",
   },
 ];
+
+export const sideProjects = [
+  {
+    title: "AWS Cost Optimizer",
+    tagline: "Find wasted AWS spend in 60 seconds",
+    description:
+      "Local-first scanner that finds the AWS resources quietly burning money (unattached EBS volumes, idle NAT gateways, old snapshots, unused load balancers, gp2 volumes that should be gp3) and shows the exact aws CLI command to fix each one. Your credentials never leave your laptop. Open source under Apache-2.0.",
+    stack: ["Python", "FastAPI", "boto3", "React", "Docker"],
+    link: "https://github.com/venkateswarisudalai/aws-cost-optimizer",
+  },
+  {
+    title: "Vantage",
+    tagline: "AI meeting notepad for macOS",
+    description:
+      "A Granola-style meeting assistant. Vantage transcribes calls on your Mac, and when the call ends Claude turns your rough notes and the transcript into clean meeting notes: topics, decisions, and action items.",
+    stack: ["macOS", "Swift", "On-device transcription", "Claude"],
+    link: "https://github.com/venkateswarisudalai/cue",
+  },
+  {
+    title: "School Operations Platform",
+    tagline: "Freelance · live at 2 schools",
+    description:
+      "Multi-tenant school operations app with separate admin, teacher, and parent experiences. Designed the Firestore data model and role-based access so role changes apply instantly, and built mirrored per-role component trees from a shared feature set.",
+    stack: ["React 19", "TypeScript", "Firebase", "Capacitor"],
+    link: "https://github.com/venkateswarisudalai/schoolapp",
+  },
+  {
+    title: "LinkedIn Outreach CRM",
+    tagline: "Desktop CRM for job-search outreach",
+    description:
+      "Tauri desktop app plus a companion Chrome extension that tracks every contact through a 5-stage pipeline (note pending, note ready, invite sent, accepted, DM sent). Claude drafts a short invite note and a longer personalized follow-up, and every outbound message needs a human click.",
+    stack: ["Tauri", "Rust", "React", "Chrome Extension", "Claude"],
+  },
+];
