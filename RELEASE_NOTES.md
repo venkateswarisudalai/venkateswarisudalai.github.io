@@ -1,20 +1,18 @@
 # Release Notes
 
-_Generated: 2025-11-21T04:23:54.659744Z_
+_Generated: 2026-09-29T03:55:04.177655Z_
 
 # Release Notes
 
 ## Features
-- Modernized portfolio with a contemporary design.
-- Added work experience section for Novarc.
-- Updated the photo and current status in the portfolio.
-- Added an "About" description to the portfolio.
-- Included contact modification details.
+- Added Unbound Security role and updated location to Vancouver.
+- Modernized portfolio with contemporary design.
+- Added about description.
+- Added contact modification.
 
 ## Bug Fixes
-- Corrected workflow syntax to ensure proper execution.
+- Corrected workflow syntax.
 
 ## Refactors/Improvements
-- Updated README.md for better clarity and information.
-- Added release note generator for streamlined documentation.
-- Triggered release notes workflow for automation.
+- Updated the photo and current status.
+- Updated README.md.
