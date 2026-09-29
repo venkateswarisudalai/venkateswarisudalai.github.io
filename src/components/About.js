@@ -16,7 +16,7 @@ export default function About() {
             <img
               className="relative object-cover object-center rounded-full h-64 w-64 md:h-80 md:w-80 border-4 border-white/10 shadow-2xl"
               alt="venka"
-              src="./venka.jpeg"
+              src="./venkateswari.png"
             />
           </div>
         </div>
@@ -43,9 +43,9 @@ export default function About() {
             Experienced Software Engineer specializing in <span className="text-white font-semibold">DevOps</span>,
             <span className="text-white font-semibold"> backend development</span>, and
             <span className="text-white font-semibold"> cloud technologies</span>. I've contributed to building
-            scalable systems at companies like <span className="text-primary-400">Unbound Security</span>,
-            <span className="text-primary-400"> Apple</span>, and
-            <span className="text-primary-400"> Novarc Technologies</span>, improving CI/CD pipelines and
+            scalable systems at companies like <span className="text-primary-400">Apple</span>,
+            <span className="text-primary-400"> Novarc Technologies</span>, and
+            <span className="text-primary-400"> Unbound Security</span>, improving CI/CD pipelines and
             optimizing infrastructure for high efficiency and reliability.
           </p>
 
