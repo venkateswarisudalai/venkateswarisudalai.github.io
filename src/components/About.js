@@ -43,7 +43,8 @@ export default function About() {
             Experienced Software Engineer specializing in <span className="text-white font-semibold">DevOps</span>,
             <span className="text-white font-semibold"> backend development</span>, and
             <span className="text-white font-semibold"> cloud technologies</span>. I've contributed to building
-            scalable systems at companies like <span className="text-primary-400">Apple</span> and
+            scalable systems at companies like <span className="text-primary-400">Unbound Security</span>,
+            <span className="text-primary-400"> Apple</span>, and
             <span className="text-primary-400"> Novarc Technologies</span>, improving CI/CD pipelines and
             optimizing infrastructure for high efficiency and reliability.
           </p>
