@@ -1,5 +1,11 @@
 export const projects = [
   {
+    title: "DevOps / Platform Engineer (Oct 2025 - Present)",
+    subtitle: "Unbound Security",
+    description:
+      "Migrating the platform off Porter (managed PaaS) onto a self-managed Kubernetes cluster on AWS, owning cluster setup, networking, and deployments. Driving SOC 2 compliance through audit logging, least-privilege access, and security controls across the AWS environment. Building DLP and guardrail plugins for Unbound's AI Gateway (a TypeScript/Hono fork of the Portkey LLM gateway), and a proof-of-concept for on-prem deployment of the platform.",
+  },
+  {
     title: "Software Developer (May 2023 - Sep 2025)",
     subtitle: "Novarc Technologies Inc.",
     description:

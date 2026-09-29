@@ -50,7 +50,7 @@ export default function About() {
 
           <p className="mb-8 leading-relaxed text-gray-400">
             I'm passionate about solving complex problems, automating workflows, and contributing to
-            high-impact engineering teams. Currently seeking opportunities in <span className="text-accent-400 font-semibold">California</span> to
+            high-impact engineering teams. Currently seeking opportunities in <span className="text-accent-400 font-semibold">Vancouver, Canada</span> to
             apply my technical expertise and continue growing as an engineer.
           </p>
 
