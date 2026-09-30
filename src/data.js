@@ -89,7 +89,7 @@ export const sideProjects = [
     description:
       "A Granola-style meeting assistant. Vantage transcribes calls on your Mac, and when the call ends Claude turns your rough notes and the transcript into clean meeting notes: topics, decisions, and action items.",
     stack: ["macOS", "Swift", "On-device transcription", "Claude"],
-    link: "https://github.com/venkateswarisudalai/cue",
+    link: "https://github.com/venkateswarisudalai/vantage",
   },
   {
     title: "School Operations Platform",
