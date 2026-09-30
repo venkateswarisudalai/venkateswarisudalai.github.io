@@ -1,6 +1,6 @@
 # Release Notes
 
-_Generated: 2026-09-30T18:21:36.726692Z_
+_Generated: 2026-09-30T18:28:54.460622Z_
 
 # Release Notes
 
@@ -17,7 +17,8 @@ _Generated: 2026-09-30T18:21:36.726692Z_
 - Added contact modification.
 
 ## Bug Fixes
-- Removed stale `yarn.lock` to ensure Netlify builds with npm.
+- Pointed Vantage project link at renamed repo.
+- Removed stale `yarn.lock` so Netlify builds with npm.
 - Corrected workflow syntax.
 
 ## Refactors/Improvements
